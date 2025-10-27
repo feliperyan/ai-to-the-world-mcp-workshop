@@ -112,7 +112,7 @@ You can also connect to your MCP server from Claude Desktop:
       "command": "npx",
       "args": [
         "mcp-remote",
-        "https://remote-mcp-server-authless.<your-account>.workers.dev/sse"
+        "https://remote-mcp-server-authless.<your-account>.workers.dev/mcp"
       ]
     }
   }
