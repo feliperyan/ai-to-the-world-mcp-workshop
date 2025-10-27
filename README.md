@@ -1,6 +1,22 @@
 # 🌐 AI to the World: MCP Workshop
 
-## Welcome to Step 7: Customize Your MCP Server with AI Assistance
+## Welcome to Step 7: Authentication and Authorization
+
+### Concepts You'll Learn
+- **workers-oauth-provider**: Implements the provider side of the OAuth 2.1 protocol with PKCE support for Cloudflare Workers. 
+- **Gated access to tools**: Simple concept of an allow-list of usernames that can use a particular tool
+
+### Learning Objectives
+By the end of this step, you'll be able to:
+- Create a Github OAuth App
+- Configure it with a new MCP Server
+- Perform authentication via an MCP Client
+
+### Implementation
+Follow the instructions to deploy an MCP Server with Authentication found in our documentation [here](https://developers.cloudflare.com/agents/guides/remote-mcp-server/#add-authentication).
+
+---
+## ⚔️ Side quest = AI Assisted MCP Server development
 
 ### Concepts You'll Learn
 - **AI-Assisted Development**: Using AI tools to accelerate coding
