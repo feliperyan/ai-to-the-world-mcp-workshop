@@ -77,7 +77,7 @@ npm run deploy
 ```
 
 This will deploy your MCP server to a Cloudflare Workers URL like:
-`https://my-mcp-server.<your-account>.workers.dev/sse`
+`https://my-mcp-server.<your-account>.workers.dev/mcp`
 
 Make sure to copy this URL - you'll need it in the next step!
 
@@ -136,14 +136,14 @@ Congratulations! You've built and deployed a fully functional MCP server with cu
 - Remove or comment out KV bindings in wrangler.toml for this step
 
 ### Can't connect to deployed MCP server in Playground
-- Make sure you're using the full URL including `/sse` at the end
+- Make sure you're using the full URL including `/mcp` at the end
 - Verify your Cloudflare Worker was deployed successfully
 - Check that you're using the correct account subdomain
 - Try accessing the URL directly in your browser to see if it responds
 
 ### Tools not appearing in Cloudflare AI Playground
 - Check that you clicked "Connect" before trying to list tools
-- Make sure the URL is correct: `https://remote-mcp-server-authless.<your-account>.workers.dev/sse`
+- Make sure the URL is correct: `https://remote-mcp-server-authless.<your-account>.workers.dev/mcp`
 - Try refreshing the page and reconnecting
 - Check your browser's developer console for network errors
 
@@ -151,4 +151,4 @@ Congratulations! You've built and deployed a fully functional MCP server with cu
 - Make sure you've configured the Claude Desktop config correctly
 - Check that you're using the proper URL format in the configuration
 - Verify you've restarted Claude Desktop after making configuration changes
-- Try "npx mcp-remote https://your-url.workers.dev/sse" in a terminal to test the connection
+- Try "npx mcp-remote https://your-url.workers.dev/mcp" in a terminal to test the connection
